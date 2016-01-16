@@ -2,7 +2,7 @@
 % The function takes a matrix, X, with one vector per row
 % The function returns vectors of clusters and heads
 
-function  [clusters, head]  = kmean( X,num_clusters )
+function  [clusters, head]  = kmeans( X,num_clusters )
 % This function does k-means clustering
 % do several trails in case of local minima
 num_trials = 10;
